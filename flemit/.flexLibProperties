@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties version="1">
+  <includeClasses>
+    <classEntry path="org.flemit.BitReader"/>
+    <classEntry path="org.flemit.ISWFInput"/>
+    <classEntry path="org.flemit.ISWFOutput"/>
+    <classEntry path="org.flemit.Rectangle"/>
+    <classEntry path="org.flemit.SWF"/>
+    <classEntry path="org.flemit.SWFHeader"/>
+    <classEntry path="org.flemit.SWFInput"/>
+    <classEntry path="org.flemit.SWFOutput"/>
+    <classEntry path="org.flemit.SWFReader"/>
+    <classEntry path="org.flemit.SWFWriter"/>
+    <classEntry path="org.flemit.Tag"/>
+    <classEntry path="org.flemit.TagInfo"/>
+    <classEntry path="org.flemit.bytecode.BCNamespace"/>
+    <classEntry path="org.flemit.bytecode.ByteCodeLayout"/>
+    <classEntry path="org.flemit.bytecode.ByteCodeLayoutBuilder"/>
+    <classEntry path="org.flemit.bytecode.ByteCodeWriter"/>
+    <classEntry path="org.flemit.bytecode.ClassFlags"/>
+    <classEntry path="org.flemit.bytecode.DynamicClass"/>
+    <classEntry path="org.flemit.bytecode.DynamicMethod"/>
+    <classEntry path="org.flemit.bytecode.GenericName"/>
+    <classEntry path="org.flemit.bytecode.IByteCodeLayout"/>
+    <classEntry path="org.flemit.bytecode.IByteCodeLayoutBuilder"/>
+    <classEntry path="org.flemit.bytecode.IByteCodeWriter"/>
+    <classEntry path="org.flemit.bytecode.IEqualityComparable"/>
+    <classEntry path="org.flemit.bytecode.InstructionArgumentType"/>
+    <classEntry path="org.flemit.bytecode.Instructions"/>
+    <classEntry path="org.flemit.bytecode.MethodFlags"/>
+    <classEntry path="org.flemit.bytecode.Multiname"/>
+    <classEntry path="org.flemit.bytecode.MultinameKind"/>
+    <classEntry path="org.flemit.bytecode.MultipleNamespaceName"/>
+    <classEntry path="org.flemit.bytecode.MultipleNamespaceNameLate"/>
+    <classEntry path="org.flemit.bytecode.NamespaceInfo"/>
+    <classEntry path="org.flemit.bytecode.NamespaceKind"/>
+    <classEntry path="org.flemit.bytecode.NamespaceSet"/>
+    <classEntry path="org.flemit.bytecode.QualifiedName"/>
+    <classEntry path="org.flemit.bytecode.RuntimeQualifiedName"/>
+    <classEntry path="org.flemit.bytecode.RuntimeQualifiedNameLate"/>
+    <classEntry path="org.flemit.bytecode.TraitAttribute"/>
+    <classEntry path="org.flemit.bytecode.TraitKind"/>
+    <classEntry path="org.flemit.flemit_internal"/>
+    <classEntry path="org.flemit.reflection.DescribeTypeTypeProvider"/>
+    <classEntry path="org.flemit.reflection.Enum"/>
+    <classEntry path="org.flemit.reflection.FieldInfo"/>
+    <classEntry path="org.flemit.reflection.ITypeProvider"/>
+    <classEntry path="org.flemit.reflection.MemberInfo"/>
+    <classEntry path="org.flemit.reflection.MemberVisibility"/>
+    <classEntry path="org.flemit.reflection.MethodInfo"/>
+    <classEntry path="org.flemit.reflection.ParameterInfo"/>
+    <classEntry path="org.flemit.reflection.PropertyInfo"/>
+    <classEntry path="org.flemit.reflection.Type"/>
+    <classEntry path="org.flemit.reflection.TypeNotFoundError"/>
+    <classEntry path="org.flemit.tags.DoABCTag"/>
+    <classEntry path="org.flemit.tags.EndTag"/>
+    <classEntry path="org.flemit.tags.FileAttributesTag"/>
+    <classEntry path="org.flemit.tags.FrameLabelTag"/>
+    <classEntry path="org.flemit.tags.ScriptLimitsTag"/>
+    <classEntry path="org.flemit.tags.SetBackgroundColorTag"/>
+    <classEntry path="org.flemit.tags.ShowFrameTag"/>
+    <classEntry path="org.flemit.tags.UnknownTag"/>
+    <classEntry path="org.flemit.util.ClassUtility"/>
+    <classEntry path="org.flemit.util.MethodUtil"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" 
+	creationComplete="runMe()" xmlns:flexUnitUIRunner="http://www.adobe.com/2009/flexUnitUIRunner" 
+	styleName="flexUnitApplication" >
+	
+	<mx:Script>
+		<![CDATA[
+			import org.flemit.tests.FLemitTestSuite;
+			import org.flemit.tests.ReflectionTestSuite;
+			import flexunit.framework.Reflective;
+			import org.flexunit.runner.notification.async.XMLListener;
+			import org.flexunit.listeners.UIListener;
+			import org.flexunit.runner.Request;
+
+			import org.flexunit.runner.FlexUnitCore;
+			private var core:FlexUnitCore;
+
+			public function runMe():void {
+
+				core = new FlexUnitCore();
+
+				//Listener for the UI, optional
+				core.addListener( new UIListener( uiListener ));
+				//core.addListener( new XMLListener() );
+				
+				core.run( ReflectionTestSuite, FLemitTestSuite );
+			}
+		]]>
+	</mx:Script>
+	<mx:Style>
+		Application {
+			   backgroundColor: #3872b2;
+			   backgroundGradientColors: #3872b2, #0c1a3d;
+			   backgroundGradientAlphas: 1, 1;
+			   themeColor: #ffffff;
+			   color: #444444;
+			   fontFamily: "Myriad Pro Semibold";
+			   fontSize: 12;
+			}
+	</mx:Style>
+	
+	<flexUnitUIRunner:TestRunnerBase id="uiListener" 
+		width="100%" height="100%" />	
+</mx:Application>
