@@ -4,8 +4,6 @@ package org.flemit.reflection
 	import flash.system.*;
 	import flash.utils.*;
 	
-	import flashx.textLayout.conversion.BaseConverter;
-	
 	import org.flemit.bytecode.BCNamespace;
 	import org.flemit.bytecode.Multiname;
 	import org.flemit.bytecode.MultipleNamespaceName;
