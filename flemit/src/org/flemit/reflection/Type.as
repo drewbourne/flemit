@@ -451,7 +451,8 @@ package org.flemit.reflection
 			
 			try
 			{
-				cls = (obj as Class) || (obj.constructor as Class);
+				cls = (obj as Class) 
+//					|| (obj.constructor as Class);
 			}
 			catch (ref:Error) // for when obj has no constructor property (why does it not extend Error or have an ID?)
 			{
