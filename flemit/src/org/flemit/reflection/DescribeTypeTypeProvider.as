@@ -191,6 +191,10 @@ package org.flemit.reflection
 			{
 				declaredBy = methodNode.@declaredBy.toString().replace('::',':');
 				
+				if (declaredBy.indexOf(":") == -1) {
+					declaredBy = ":" + declaredBy;
+				}
+				
 				if (declaredBy == owner.fullName)
 				{
 					try
@@ -208,6 +212,10 @@ package org.flemit.reflection
 			for each(var propertyNode : XML in typeXML.accessor)
 			{
 				declaredBy = propertyNode.@declaredBy.toString().replace('::',':');
+				
+				if (declaredBy.indexOf(":") == -1) {
+					declaredBy = ":" + declaredBy;
+				}
 				
 				if (declaredBy == owner.fullName)
 				{
